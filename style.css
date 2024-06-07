@@ -1,0 +1,29 @@
+body{
+    background-image: url(img/backgroud.webp) ;
+}
+
+
+p{
+    text-transform: uppercase;
+    color: rgb(211, 68, 255);
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.botoes input{
+    padding: 5px 30px 5px 30px;
+    font-weight: bold;
+
+}

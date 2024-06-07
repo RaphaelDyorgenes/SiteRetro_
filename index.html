@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Retrô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="titulos">
+        <p class="paragrafo">Bem vindo ao site do spiderman!🕷️
+
+        </p>
+        <p class="paragrafo">No site do homem-aranha você encrontrará a aranha</p>
+    </div>
+
+    <div class="botoes">
+        <img src="img/gif1.gif" alt="">
+        <input type="button" value="Toque para Jogar" onclick="transformar()">
+    </div>
+
+    <script>
+        function transformar(){
+            var img = document.getElementsByTagName("body")[0]
+            console.log(img)
+            img.style.backgroundImage = "url(img/fundo2.gif)"
+
+        }
+
+    </script>
+    
+</body>
+
+</html>
